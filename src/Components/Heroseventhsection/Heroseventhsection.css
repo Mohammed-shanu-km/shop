@@ -1,0 +1,23 @@
+.hero-main {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.753), rgba(0, 0, 0, 0.732)), url('../../assets/aboutus.jpg');
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 130px;
+}
+@media (max-width: 640px) {
+    .hero-main {
+        height: 350px;
+      background-size: cover;
+      background-position: left;
+      background-repeat: no-repeat;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 100px;
+      padding-bottom: 100px;
+  
+    }
+    
+  }
